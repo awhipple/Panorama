@@ -1,0 +1,16 @@
+﻿Build started 3/8/2015 2:49:44 PM.
+     1>Project "C:\Users\Aaron\Documents\Visual Studio 2012\Projects\panorama\panorama\panorama.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\OpenCV-2.4.11\opencv\build\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt panorama.cpp
+         panorama.cpp
+     1>c:\users\aaron\documents\visual studio 2012\projects\panorama\panorama\panorama.cpp(10): warning C4081: expected 'newline'; found ';'
+     1>c:\users\aaron\documents\visual studio 2012\projects\panorama\panorama\panorama.cpp(49): warning C4800: 'void *' : forcing value to bool 'true' or 'false' (performance warning)
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaron\Documents\Visual Studio 2012\Projects\panorama\Debug\panorama.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\OpenCV-2.4.11\opencv\build\x86\vc12\lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aaron\Documents\Visual Studio 2012\Projects\panorama\Debug\panorama.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaron\Documents\Visual Studio 2012\Projects\panorama\Debug\panorama.lib" /MACHINE:X86 Debug\panorama.obj
+     1>panorama.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         panorama.vcxproj -> C:\Users\Aaron\Documents\Visual Studio 2012\Projects\panorama\Debug\panorama.exe
+     1>Done Building Project "C:\Users\Aaron\Documents\Visual Studio 2012\Projects\panorama\panorama\panorama.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.01
